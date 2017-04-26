@@ -21,25 +21,20 @@
           <input id="description1" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="date1">Date (MM/DD/YYYY):</label>
-          <input id="date1" class="form-control" type="text">
+          <label for="startDateTime1">Choose a start date and time:</label>
+          <input id="startDateTime1" type="datetime-local">
         </div>
         <div class="form-group">
-          <label for="startTime1">Start Time (HH:MM AM/PM):</label>
-          <input id="startTime1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="endTime1">End Time (HH:MM AM/PM):</label>
-          <input id="endTime1" class="form-control" type="text">
+          <label for="endDateTime1">Choose an end date and time:</label>
+          <input id="endDateTime1" type="datetime-local">
         </div>
         <button type="submit" class="btn">Add!</button>
       </form>
       <div>
-        <h2>Name: <strong><span id="nameOutput"></span></strong></h2>
+        <h2 id="nameShow">Name: <strong><span id="nameOutput"></span></strong> is a stupid name. We have changed the name on your records to <strong>Billy Savage</strong> and will only refer to you as <strong>Billy Savage</strong> from this point forward.</h2>
         <h2>Appointment for: <strong><span id="descriptionOutput"></span></strong></h2>
-        <h2>Date: <strong><span id="dateOutput"></span></strong></h2>
-        <h2>Start Time: <strong><span id="startTimeOutput"></span></strong></h2>
-        <h2>End Time: <strong><span id="endTimeOutput"></span></strong></h2>
+        <h2>Start Date and Time: <strong><span id="startDateOutput"></span></strong></h2>
+        <h2>End Date and Time: <strong><span id="endDateOutput"></span></strong></h2>
       </div>
     </div>
   </body>

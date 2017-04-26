@@ -3,14 +3,14 @@ $(function(){
     event.preventDefault();
     var name = $("#name1").val();
     var description = $("#description1").val();
-    var date = $("#date1").val();
-    var startTime = $("#startTime1").val();
-    var endTime = $("#endTime1").val();
+    var startDateTime = $("#startDateTime1").val();
+    var endDateTime = $("#endDateTime1").val();
 
+
+    $("#nameShow").show();
     $("#nameOutput").text(name);
     $("#descriptionOutput").text(description);
-    $("#dateOutput").text(date);
-    $("#startTimeOutput").text(startTime);
-    $("#endTimeOutput").text(endTime);
+    $("#startDateOutput").text(startDateTime);
+    $("#endDateOutput").text(endDateTime);
   });
 });
